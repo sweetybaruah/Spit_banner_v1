@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    /* background: url(./images/bg2.jpeg); */
+}
+.hidden{
+    display: none;
+}
+.bg{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+}
+.item1{
+    position: absolute;
+    width: 143px;
+    height: 18px;
+    top: 11px;
+    left: 79px;
+}
+.item2{
+    position: absolute;
+    width: 509px;
+    height: 510px;
+    top: 119px;
+    left: -101px;
+    /* transform: rotate(90deg); */
+}
+.item3_2{
+    position: absolute;
+    width: 143px;
+    height: 18px;
+    top: 213px;
+    left: 136px;
+    opacity: 0;
+}
+.item3_1{
+    position: absolute;
+    width: 143px;
+    height: 18px;
+    top: 215px;
+    left: 136px;
+    opacity: 0;
+}
+.item3{
+    position: absolute;
+    width: 143px;
+    height: 18px;
+    top: 214px;
+    left: 136px;
+    /* opacity: 0; */
+}
+.item4{
+    position: absolute;
+    width: 143px;
+    height: 18px;
+    top: 214px;
+    left: 211px;
+}
+.item5{
+    position: absolute;
+    width: 143px;
+    height: 18px;
+    top: 84px;
+    left: 82px;
+}
+.area{
+    position: absolute;
+    top: 220px;
+    left: 185px;
+}
+
+.pluse{
+    animation-name: pluse;
+    animation-duration: .9s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes pluse{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.90);
+    }
+}
